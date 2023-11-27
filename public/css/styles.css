@@ -2,20 +2,35 @@
 body, h1, h2, h3, ul, li, a {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jcc{
+    padding-top: 2rem;
+    padding-left: 29rem;
 }
 
 /* Estilização do header */
 header {
-    background-color: #333;
+    background-color: #132d46;
     color: white;
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
 }
 
 header h1 {
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.card{
+    text-align: justify;
+   padding-top: 2rem;
+   padding-left: 29rem;
+}
+
+footer{
+    padding-left: 29rem;
 }
 
 /* Estilização do menu */
@@ -23,7 +38,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav li {
@@ -38,12 +53,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #01c38e;
 }
 
 /* Estilo do conteúdo principal */
+
 main {
-    padding: 2rem;
+        
 }
 
 /* Estilo para ocultar elementos */
@@ -127,4 +143,9 @@ main {
 
 .icon-btn.delete:hover {
     color: #b02130; /* Cor vermelha ao passar o mouse */
+}
+
+#bookForm{
+    padding-top: 2rem;
+    padding-left: 29rem;
 }
