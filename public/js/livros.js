@@ -168,5 +168,3 @@ function carregarAutores() {
     })
     .catch(error => console.error("Erro ao carregar editoras:", error));
   }
-  
-  
